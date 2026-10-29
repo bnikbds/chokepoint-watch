@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "attempted_at": "2026-10-29T13:29:31.435823+00:00",
+  "methodology": "risk-v1",
+  "passages": {
+    "suez": {
+      "name": "Canal de Suez",
+      "latitude": 30.5,
+      "longitude": 32.35,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 9.8,
+        "score": 0,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 0,
+      "coverage": 1
+    },
+    "panama": {
+      "name": "Canal de Panama",
+      "latitude": 9.1,
+      "longitude": -79.75,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 9.8,
+        "score": 0,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 0,
+      "coverage": 1
+    },
+    "bab": {
+      "name": "Bab el-Mandeb",
+      "latitude": 12.6,
+      "longitude": 43.35,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 19.2,
+        "score": 12,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 12,
+      "coverage": 1
+    },
+    "aden": {
+      "name": "Golfe d’Aden",
+      "latitude": 12.5,
+      "longitude": 49,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 11.2,
+        "score": 0,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 0,
+      "coverage": 1
+    },
+    "malacca": {
+      "name": "Détroit de Malacca",
+      "latitude": 4,
+      "longitude": 100,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 7.0,
+        "score": 0,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 0,
+      "coverage": 1
+    },
+    "singapore": {
+      "name": "Détroit de Singapour",
+      "latitude": 1.2,
+      "longitude": 103.9,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 7.3,
+        "score": 0,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 0,
+      "coverage": 1
+    },
+    "sicily": {
+      "name": "Canal de Sicile",
+      "latitude": 37.5,
+      "longitude": 11.6,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 11.6,
+        "score": 0,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 0,
+      "coverage": 1
+    },
+    "gibraltar": {
+      "name": "Détroit de Gibraltar",
+      "latitude": 35.9,
+      "longitude": -5.7,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 21.5,
+        "score": 19,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 19,
+      "coverage": 1
+    },
+    "dover": {
+      "name": "Pas de Calais",
+      "latitude": 51,
+      "longitude": 1.6,
+      "traffic": null,
+      "weather": {
+        "peak_knots": 11.5,
+        "score": 0,
+        "start": "2026-10-29T13:00Z",
+        "end": "2026-10-30T12:00Z",
+        "fetched_at": "2026-10-29T13:29:31.435823+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
+      "security_score": null,
+      "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
+      "errors": [
+        "Trafic : Catalogue PortWatch inaccessible"
+      ],
+      "operational_score": 0,
+      "coverage": 1
+    }
+  },
+  "errors": [
+    "PortWatch catalogue: {'code': 400, 'message': 'Invalid URL', 'details': ['Invalid URL']}"
+  ]
+}
