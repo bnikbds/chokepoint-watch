@@ -32,3 +32,9 @@ Score expérimental de vigilance opérationnelle : maximum des composantes dispo
 Vérifications : `python -m unittest discover -s tools -p 'test_*.py'`. Le collecteur refuse doublons, valeurs manquantes, dates futures, négatifs et conteneurs supérieurs au total. Il conserve les séries antérieures en cas de panne, sans changer leur date de collecte. L'interface invalide les scores trop anciens même si le collecteur est arrêté.
 
 Sources : https://portwatch.imf.org/pages/data-and-methodology ; https://open-meteo.com/en/docs ; https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule . Les tâches GitHub peuvent être retardées ou désactivées après une longue inactivité du dépôt public. Vérifier Actions si la dernière collecte dépasse 24 h.
+
+## Atlas géographique interactif
+
+Leaflet 1.9.4 est embarqué dans `vendor/` avec sa licence. Le fond OpenStreetMap charge uniquement les tuiles visibles, avec attribution et cache navigateur. Aucun suivi AIS individuel ni itinéraire commercial réel n'est affiché. Le zoom, les neuf passages au clavier, les corridors indicatifs, le détour par le Cap, la fiche contextuelle, le mode agrandi et la suspension des animations sont disponibles. `prefers-reduced-motion` est respecté. Le fond nécessite Internet ; l'ancien contenu reste disponible si Leaflet ne charge pas.
+
+Trois couches : vigilance opérationnelle expérimentale (trafic/vent), sûreté documentaire (niveaux attribués encore récents uniquement) et trafic moyen. Gris = inconnu/ancien ; bordure pointillée et astérisque = couverture partielle. Une sûreté non évaluée ne devient pas verte. Les tableaux et exports existants restent dans le volet de détails.
