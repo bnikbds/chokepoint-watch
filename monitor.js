@@ -14,6 +14,14 @@ root.querySelectorAll('[data-monitor-id]').forEach(b=>b.onclick=()=>detail(b.dat
 const status=document.getElementById('job-status');if(status)status.textContent='Collecteur GitHub : dernière tentative '+stamp(d.attempted_at)+'. Deux passages programmés par jour. Voir le tableau des neuf passages et les journaux GitHub.';
 }
 function detail(id){const p=current.passages[id];const w=p.weather,t=p.traffic;document.getElementById('monitor-detail').innerHTML='<div><strong>'+escape(p.name)+'</strong><p>Coordonnées représentatives : '+p.latitude+', '+p.longitude+'. Sûreté : non évaluée automatiquement.</p><p>'+(t?'PortWatch : '+t.days+' observations ; collecte '+escape(stamp(t.fetched_at))+' ; référence '+fmt(t.baseline)+' navires/j.':'Trafic : pas de données disponibles.')+'</p><p>'+(w?'Prévision du '+escape(stamp(w.start))+' au '+escape(stamp(w.end))+' ; vent maximum '+fmt(w.peak_knots)+' nœuds.':'Météo : non disponible.')+'</p>'+p.errors.map(e=>'<p>'+escape(e)+'</p>').join('')+'</div>';}
-async function load(){let error;for(const u of ['https://raw.githubusercontent.com/bnikbds/chokepoint-watch/main/data/monitor.json','data/monitor.json'])try{const r=await fetch(u+'?t='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(d.schema!==1||Object.keys(d.passages||{}).length!==9)throw Error('Relevé incomplet');render(d);return;}catch(e){error=e;}if(!current)root.textContent='Surveillance automatique temporairement indisponible : '+error.message;else root.querySelector('h2').textContent='Dernier relevé conservé · actualisation impossible';}
+async function load(){const button=document.getElementById('monitor-reload');if(button){button.disabled=true;button.textContent='Chargement…';}
+const urls=['https://raw.githubusercontent.com/bnikbds/chokepoint-watch/main/data/monitor.json','data/monitor.json'];
+const results=await Promise.allSettled(urls.map(async u=>{const r=await fetch(u+'?t='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(d.schema!==1||Object.keys(d.passages||{}).length!==9)throw Error('Relevé incomplet');return d;}));
+const candidates=results.filter(x=>x.status==='fulfilled').map(x=>x.value);if(current)candidates.push(current);
+const count=d=>Object.values(d.passages).reduce((s,p)=>s+(p.traffic?.rows?.length||0),0);
+candidates.sort((a,b)=>Date.parse(b.attempted_at)-Date.parse(a.attempted_at)||count(b)-count(a));
+if(candidates.length)render(candidates[0]);else root.textContent='Surveillance automatique temporairement indisponible. Réessayez ultérieurement.';
+if(results.every(x=>x.status==='rejected')&&current)root.querySelector('h2').textContent='Dernier relevé conservé · actualisation impossible';
+}
 load();setInterval(load,15*60*1000);
 })();
