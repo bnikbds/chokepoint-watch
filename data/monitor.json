@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-10-29T21:52:53.374536+00:00",
+  "attempted_at": "2026-10-30T11:28:14.966171+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -9,13 +9,6 @@
       "longitude": 32.35,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-08-30",
-            "portid": "chokepoint1",
-            "portname": "Suez Canal",
-            "n_total": 31,
-            "n_container": 8
-          },
           {
             "date": "2025-08-31",
             "portid": "chokepoint1",
@@ -2972,26 +2965,23 @@
         "baseline_days": 337,
         "score": 0,
         "stale": false,
-        "days": 422,
+        "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-10-29T14:51:29.438414+00:00",
-        "portid": "chokepoint1",
-        "retained": true
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
+        "portid": "chokepoint1"
       },
       "weather": {
-        "peak_knots": 4.4,
+        "peak_knots": 4.9,
         "score": 0,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [
-        "Trafic : {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}"
-      ],
+      "errors": [],
       "operational_score": 0,
       "coverage": 2
     },
@@ -3001,13 +2991,6 @@
       "longitude": -79.75,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-08-30",
-            "portid": "chokepoint2",
-            "portname": "Panama Canal",
-            "n_total": 31,
-            "n_container": 7
-          },
           {
             "date": "2025-08-31",
             "portid": "chokepoint2",
@@ -5964,17 +5947,17 @@
         "baseline_days": 337,
         "score": 15,
         "stale": false,
-        "days": 422,
+        "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "portid": "chokepoint2"
       },
       "weather": {
-        "peak_knots": 10.3,
+        "peak_knots": 10.4,
         "score": 0,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -5990,13 +5973,6 @@
       "longitude": 43.35,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-08-30",
-            "portid": "chokepoint4",
-            "portname": "Bab el-Mandeb Strait",
-            "n_total": 48,
-            "n_container": 8
-          },
           {
             "date": "2025-08-31",
             "portid": "chokepoint4",
@@ -8953,17 +8929,17 @@
         "baseline_days": 337,
         "score": 17,
         "stale": false,
-        "days": 422,
+        "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "portid": "chokepoint4"
       },
       "weather": {
-        "peak_knots": 19.2,
-        "score": 12,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "peak_knots": 20.6,
+        "score": 16,
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -8979,11 +8955,11 @@
       "longitude": 49,
       "traffic": null,
       "weather": {
-        "peak_knots": 11.6,
+        "peak_knots": 13.6,
         "score": 0,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -9001,13 +8977,6 @@
       "longitude": 100,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-08-30",
-            "portid": "chokepoint5",
-            "portname": "Malacca Strait",
-            "n_total": 260,
-            "n_container": 80
-          },
           {
             "date": "2025-08-31",
             "portid": "chokepoint5",
@@ -11964,26 +11933,23 @@
         "baseline_days": 337,
         "score": 1,
         "stale": false,
-        "days": 422,
+        "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-10-29T14:51:29.438414+00:00",
-        "portid": "chokepoint5",
-        "retained": true
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
+        "portid": "chokepoint5"
       },
       "weather": {
-        "peak_knots": 8.7,
+        "peak_knots": 6.9,
         "score": 0,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [
-        "Trafic : {'code': 400, 'message': 'Cannot perform query. Invalid query parameters.', 'details': ['Unable to perform query. Please check your parameters.']}"
-      ],
+      "errors": [],
       "operational_score": 1,
       "coverage": 2
     },
@@ -11993,11 +11959,11 @@
       "longitude": 103.9,
       "traffic": null,
       "weather": {
-        "peak_knots": 6.6,
+        "peak_knots": 10.3,
         "score": 0,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -12015,11 +11981,11 @@
       "longitude": 11.6,
       "traffic": null,
       "weather": {
-        "peak_knots": 9.1,
+        "peak_knots": 7.7,
         "score": 0,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -12037,13 +12003,6 @@
       "longitude": -5.7,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-08-30",
-            "portid": "chokepoint8",
-            "portname": "Gibraltar Strait",
-            "n_total": 137,
-            "n_container": 34
-          },
           {
             "date": "2025-08-31",
             "portid": "chokepoint8",
@@ -15000,27 +14959,24 @@
         "baseline_days": 337,
         "score": 4,
         "stale": false,
-        "days": 422,
+        "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-10-29T14:51:29.438414+00:00",
-        "portid": "chokepoint8",
-        "retained": true
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
+        "portid": "chokepoint8"
       },
       "weather": {
-        "peak_knots": 21.0,
-        "score": 17,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "peak_knots": 18.3,
+        "score": 9,
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [
-        "Trafic : The read operation timed out"
-      ],
-      "operational_score": 17,
+      "errors": [],
+      "operational_score": 9,
       "coverage": 2
     },
     "dover": {
@@ -15029,13 +14985,6 @@
       "longitude": 1.6,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-08-30",
-            "portid": "chokepoint9",
-            "portname": "Dover Strait",
-            "n_total": 151,
-            "n_container": 29
-          },
           {
             "date": "2025-08-31",
             "portid": "chokepoint9",
@@ -17992,24 +17941,24 @@
         "baseline_days": 337,
         "score": 4,
         "stale": false,
-        "days": 422,
+        "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "portid": "chokepoint9"
       },
       "weather": {
-        "peak_knots": 16.7,
-        "score": 5,
-        "start": "2026-10-29T21:00Z",
-        "end": "2026-10-30T20:00Z",
-        "fetched_at": "2026-10-29T21:52:53.374536+00:00",
+        "peak_knots": 18.9,
+        "score": 11,
+        "start": "2026-10-30T11:00Z",
+        "end": "2026-10-31T10:00Z",
+        "fetched_at": "2026-10-30T11:28:14.966171+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 5,
+      "operational_score": 11,
       "coverage": 2
     }
   },
