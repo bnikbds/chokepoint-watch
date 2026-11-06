@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-06T13:04:01.097636+00:00",
+  "attempted_at": "2026-11-06T22:11:59.172175+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2930,11 +2930,11 @@
         "retained": true
       },
       "weather": {
-        "peak_knots": 9.9,
+        "peak_knots": 11.8,
         "score": 0,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -5894,11 +5894,11 @@
         "retained": true
       },
       "weather": {
-        "peak_knots": 4.1,
+        "peak_knots": 6.4,
         "score": 0,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -8837,11 +8837,11 @@
         "retained": true
       },
       "weather": {
-        "peak_knots": 22.2,
-        "score": 21,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "peak_knots": 24.0,
+        "score": 26,
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -8850,7 +8850,7 @@
       "errors": [
         "Trafic : Catalogue PortWatch inaccessible"
       ],
-      "operational_score": 21,
+      "operational_score": 26,
       "coverage": 2
     },
     "aden": {
@@ -8859,11 +8859,11 @@
       "longitude": 49,
       "traffic": null,
       "weather": {
-        "peak_knots": 17.4,
-        "score": 7,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "peak_knots": 16.9,
+        "score": 5,
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -8872,7 +8872,7 @@
       "errors": [
         "Trafic : Catalogue PortWatch inaccessible"
       ],
-      "operational_score": 7,
+      "operational_score": 5,
       "coverage": 1
     },
     "malacca": {
@@ -11809,11 +11809,11 @@
         "retained": true
       },
       "weather": {
-        "peak_knots": 5.0,
+        "peak_knots": 8.3,
         "score": 0,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11831,11 +11831,11 @@
       "longitude": 103.9,
       "traffic": null,
       "weather": {
-        "peak_knots": 6.0,
+        "peak_knots": 6.2,
         "score": 0,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11853,11 +11853,11 @@
       "longitude": 11.6,
       "traffic": null,
       "weather": {
-        "peak_knots": 11.8,
+        "peak_knots": 14.6,
         "score": 0,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -14817,11 +14817,11 @@
         "retained": true
       },
       "weather": {
-        "peak_knots": 17.5,
-        "score": 7,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "peak_knots": 18.9,
+        "score": 11,
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -14830,7 +14830,7 @@
       "errors": [
         "Trafic : Catalogue PortWatch inaccessible"
       ],
-      "operational_score": 7,
+      "operational_score": 11,
       "coverage": 2
     },
     "dover": {
@@ -17760,11 +17760,11 @@
         "retained": true
       },
       "weather": {
-        "peak_knots": 7.4,
+        "peak_knots": 9.9,
         "score": 0,
-        "start": "2026-11-06T13:00Z",
-        "end": "2026-11-07T12:00Z",
-        "fetched_at": "2026-11-06T13:04:01.097636+00:00",
+        "start": "2026-11-06T22:00Z",
+        "end": "2026-11-07T21:00Z",
+        "fetched_at": "2026-11-06T22:11:59.172175+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -17778,6 +17778,6 @@
     }
   },
   "errors": [
-    "PortWatch catalogue: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6069 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
+    "PortWatch catalogue: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6029 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
   ]
 }
