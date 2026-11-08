@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-08T12:00:32.119058+00:00",
+  "attempted_at": "2026-11-08T21:15:05.310169+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2953,15 +2953,15 @@
         "stale": false,
         "days": 419,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "portid": "chokepoint1"
       },
       "weather": {
-        "peak_knots": 7.8,
+        "peak_knots": 8.7,
         "score": 0,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -5921,15 +5921,15 @@
         "stale": false,
         "days": 419,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "portid": "chokepoint2"
       },
       "weather": {
-        "peak_knots": 5.9,
+        "peak_knots": 6.0,
         "score": 0,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -8889,15 +8889,15 @@
         "stale": false,
         "days": 419,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "portid": "chokepoint4"
       },
       "weather": {
-        "peak_knots": 20.7,
-        "score": 16,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "peak_knots": 17.8,
+        "score": 8,
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -8913,11 +8913,11 @@
       "longitude": 49,
       "traffic": null,
       "weather": {
-        "peak_knots": 14.1,
+        "peak_knots": 12.3,
         "score": 0,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11879,15 +11879,15 @@
         "stale": false,
         "days": 419,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "portid": "chokepoint5"
       },
       "weather": {
-        "peak_knots": 6.3,
+        "peak_knots": 5.8,
         "score": 0,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11903,11 +11903,11 @@
       "longitude": 103.9,
       "traffic": null,
       "weather": {
-        "peak_knots": 6.9,
+        "peak_knots": 7.3,
         "score": 0,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11925,11 +11925,11 @@
       "longitude": 11.6,
       "traffic": null,
       "weather": {
-        "peak_knots": 13.9,
-        "score": 0,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "peak_knots": 18.6,
+        "score": 10,
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11938,7 +11938,7 @@
       "errors": [
         "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
       ],
-      "operational_score": 0,
+      "operational_score": 10,
       "coverage": 1
     },
     "gibraltar": {
@@ -14891,22 +14891,22 @@
         "stale": false,
         "days": 419,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "portid": "chokepoint8"
       },
       "weather": {
-        "peak_knots": 21.0,
-        "score": 17,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "peak_knots": 13.8,
+        "score": 0,
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 17,
+      "operational_score": 5,
       "coverage": 2
     },
     "dover": {
@@ -17859,15 +17859,15 @@
         "stale": false,
         "days": 419,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "portid": "chokepoint9"
       },
       "weather": {
         "peak_knots": 16.9,
         "score": 5,
-        "start": "2026-11-08T12:00Z",
-        "end": "2026-11-09T11:00Z",
-        "fetched_at": "2026-11-08T12:00:32.119058+00:00",
+        "start": "2026-11-08T21:00Z",
+        "end": "2026-11-09T20:00Z",
+        "fetched_at": "2026-11-08T21:15:05.310169+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
