@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-10T00:45:04.712330+00:00",
+  "attempted_at": "2026-11-10T13:37:39.373401+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2927,27 +2927,76 @@
             "portname": "Suez Canal",
             "n_total": 46,
             "n_container": 14
+          },
+          {
+            "date": "2026-11-02",
+            "portid": "chokepoint1",
+            "portname": "Suez Canal",
+            "n_total": 39,
+            "n_container": 19
+          },
+          {
+            "date": "2026-11-03",
+            "portid": "chokepoint1",
+            "portname": "Suez Canal",
+            "n_total": 39,
+            "n_container": 12
+          },
+          {
+            "date": "2026-11-04",
+            "portid": "chokepoint1",
+            "portname": "Suez Canal",
+            "n_total": 37,
+            "n_container": 16
+          },
+          {
+            "date": "2026-11-05",
+            "portid": "chokepoint1",
+            "portname": "Suez Canal",
+            "n_total": 52,
+            "n_container": 14
+          },
+          {
+            "date": "2026-11-06",
+            "portid": "chokepoint1",
+            "portname": "Suez Canal",
+            "n_total": 49,
+            "n_container": 11
+          },
+          {
+            "date": "2026-11-07",
+            "portid": "chokepoint1",
+            "portname": "Suez Canal",
+            "n_total": 52,
+            "n_container": 16
+          },
+          {
+            "date": "2026-11-08",
+            "portid": "chokepoint1",
+            "portname": "Suez Canal",
+            "n_total": 43,
+            "n_container": 16
           }
         ],
-        "latest": "2026-11-01",
-        "mean28": 42.57142857142857,
-        "container28": 12.821428571428571,
-        "change28": 4.6,
+        "latest": "2026-11-08",
+        "mean28": 43.25,
+        "container28": 13.464285714285714,
+        "change28": 3.8,
         "baseline": 41,
         "baseline_days": 337,
         "score": 0,
         "stale": false,
-        "days": 417,
+        "days": 424,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "portid": "chokepoint1"
       },
       "weather": {
-        "peak_knots": 10.9,
+        "peak_knots": 10.8,
         "score": 0,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -5881,34 +5930,83 @@
             "portname": "Panama Canal",
             "n_total": 27,
             "n_container": 9
+          },
+          {
+            "date": "2026-11-02",
+            "portid": "chokepoint2",
+            "portname": "Panama Canal",
+            "n_total": 30,
+            "n_container": 5
+          },
+          {
+            "date": "2026-11-03",
+            "portid": "chokepoint2",
+            "portname": "Panama Canal",
+            "n_total": 24,
+            "n_container": 10
+          },
+          {
+            "date": "2026-11-04",
+            "portid": "chokepoint2",
+            "portname": "Panama Canal",
+            "n_total": 32,
+            "n_container": 7
+          },
+          {
+            "date": "2026-11-05",
+            "portid": "chokepoint2",
+            "portname": "Panama Canal",
+            "n_total": 27,
+            "n_container": 9
+          },
+          {
+            "date": "2026-11-06",
+            "portid": "chokepoint2",
+            "portname": "Panama Canal",
+            "n_total": 25,
+            "n_container": 7
+          },
+          {
+            "date": "2026-11-07",
+            "portid": "chokepoint2",
+            "portname": "Panama Canal",
+            "n_total": 31,
+            "n_container": 11
+          },
+          {
+            "date": "2026-11-08",
+            "portid": "chokepoint2",
+            "portname": "Panama Canal",
+            "n_total": 22,
+            "n_container": 8
           }
         ],
-        "latest": "2026-11-01",
-        "mean28": 27.392857142857142,
-        "container28": 7.821428571428571,
-        "change28": -0.4,
+        "latest": "2026-11-08",
+        "mean28": 27.75,
+        "container28": 7.928571428571429,
+        "change28": 4.6,
         "baseline": 32,
         "baseline_days": 337,
-        "score": 14,
+        "score": 13,
         "stale": false,
-        "days": 417,
+        "days": 424,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "portid": "chokepoint2"
       },
       "weather": {
-        "peak_knots": 8.6,
+        "peak_knots": 7.7,
         "score": 0,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 14,
+      "operational_score": 13,
       "coverage": 2
     },
     "bab": {
@@ -8835,34 +8933,83 @@
             "portname": "Bab el-Mandeb Strait",
             "n_total": 30,
             "n_container": 2
+          },
+          {
+            "date": "2026-11-02",
+            "portid": "chokepoint4",
+            "portname": "Bab el-Mandeb Strait",
+            "n_total": 30,
+            "n_container": 7
+          },
+          {
+            "date": "2026-11-03",
+            "portid": "chokepoint4",
+            "portname": "Bab el-Mandeb Strait",
+            "n_total": 25,
+            "n_container": 5
+          },
+          {
+            "date": "2026-11-04",
+            "portid": "chokepoint4",
+            "portname": "Bab el-Mandeb Strait",
+            "n_total": 27,
+            "n_container": 3
+          },
+          {
+            "date": "2026-11-05",
+            "portid": "chokepoint4",
+            "portname": "Bab el-Mandeb Strait",
+            "n_total": 34,
+            "n_container": 5
+          },
+          {
+            "date": "2026-11-06",
+            "portid": "chokepoint4",
+            "portname": "Bab el-Mandeb Strait",
+            "n_total": 25,
+            "n_container": 4
+          },
+          {
+            "date": "2026-11-07",
+            "portid": "chokepoint4",
+            "portname": "Bab el-Mandeb Strait",
+            "n_total": 19,
+            "n_container": 7
+          },
+          {
+            "date": "2026-11-08",
+            "portid": "chokepoint4",
+            "portname": "Bab el-Mandeb Strait",
+            "n_total": 24,
+            "n_container": 8
           }
         ],
-        "latest": "2026-11-01",
-        "mean28": 27.714285714285715,
-        "container28": 5.857142857142857,
-        "change28": 2.0,
+        "latest": "2026-11-08",
+        "mean28": 27.214285714285715,
+        "container28": 5.678571428571429,
+        "change28": -0.8,
         "baseline": 34,
         "baseline_days": 337,
-        "score": 18,
+        "score": 20,
         "stale": false,
-        "days": 417,
+        "days": 424,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "portid": "chokepoint4"
       },
       "weather": {
-        "peak_knots": 15.6,
-        "score": 2,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "peak_knots": 19.3,
+        "score": 12,
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 18,
+      "operational_score": 20,
       "coverage": 2
     },
     "aden": {
@@ -8871,11 +9018,11 @@
       "longitude": 49,
       "traffic": null,
       "weather": {
-        "peak_knots": 16.6,
-        "score": 5,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "peak_knots": 17.0,
+        "score": 6,
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -8884,7 +9031,7 @@
       "errors": [
         "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
       ],
-      "operational_score": 5,
+      "operational_score": 6,
       "coverage": 1
     },
     "malacca": {
@@ -11811,27 +11958,76 @@
             "portname": "Malacca Strait",
             "n_total": 194,
             "n_container": 42
+          },
+          {
+            "date": "2026-11-02",
+            "portid": "chokepoint5",
+            "portname": "Malacca Strait",
+            "n_total": 244,
+            "n_container": 60
+          },
+          {
+            "date": "2026-11-03",
+            "portid": "chokepoint5",
+            "portname": "Malacca Strait",
+            "n_total": 239,
+            "n_container": 58
+          },
+          {
+            "date": "2026-11-04",
+            "portid": "chokepoint5",
+            "portname": "Malacca Strait",
+            "n_total": 238,
+            "n_container": 65
+          },
+          {
+            "date": "2026-11-05",
+            "portid": "chokepoint5",
+            "portname": "Malacca Strait",
+            "n_total": 218,
+            "n_container": 51
+          },
+          {
+            "date": "2026-11-06",
+            "portid": "chokepoint5",
+            "portname": "Malacca Strait",
+            "n_total": 238,
+            "n_container": 73
+          },
+          {
+            "date": "2026-11-07",
+            "portid": "chokepoint5",
+            "portname": "Malacca Strait",
+            "n_total": 243,
+            "n_container": 65
+          },
+          {
+            "date": "2026-11-08",
+            "portid": "chokepoint5",
+            "portname": "Malacca Strait",
+            "n_total": 231,
+            "n_container": 64
           }
         ],
-        "latest": "2026-11-01",
-        "mean28": 219.71428571428572,
-        "container28": 59.5,
-        "change28": -2.2,
+        "latest": "2026-11-08",
+        "mean28": 220.42857142857142,
+        "container28": 59.464285714285715,
+        "change28": -2.8,
         "baseline": 227,
         "baseline_days": 337,
         "score": 3,
         "stale": false,
-        "days": 417,
+        "days": 424,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "portid": "chokepoint5"
       },
       "weather": {
-        "peak_knots": 7.1,
+        "peak_knots": 6.6,
         "score": 0,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11847,11 +12043,11 @@
       "longitude": 103.9,
       "traffic": null,
       "weather": {
-        "peak_knots": 9.0,
+        "peak_knots": 5.9,
         "score": 0,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11869,11 +12065,11 @@
       "longitude": 11.6,
       "traffic": null,
       "weather": {
-        "peak_knots": 18.1,
-        "score": 9,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "peak_knots": 10.3,
+        "score": 0,
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
@@ -11882,7 +12078,7 @@
       "errors": [
         "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
       ],
-      "operational_score": 9,
+      "operational_score": 0,
       "coverage": 1
     },
     "gibraltar": {
@@ -14809,34 +15005,83 @@
             "portname": "Gibraltar Strait",
             "n_total": 122,
             "n_container": 28
+          },
+          {
+            "date": "2026-11-02",
+            "portid": "chokepoint8",
+            "portname": "Gibraltar Strait",
+            "n_total": 132,
+            "n_container": 31
+          },
+          {
+            "date": "2026-11-03",
+            "portid": "chokepoint8",
+            "portname": "Gibraltar Strait",
+            "n_total": 155,
+            "n_container": 35
+          },
+          {
+            "date": "2026-11-04",
+            "portid": "chokepoint8",
+            "portname": "Gibraltar Strait",
+            "n_total": 145,
+            "n_container": 32
+          },
+          {
+            "date": "2026-11-05",
+            "portid": "chokepoint8",
+            "portname": "Gibraltar Strait",
+            "n_total": 138,
+            "n_container": 45
+          },
+          {
+            "date": "2026-11-06",
+            "portid": "chokepoint8",
+            "portname": "Gibraltar Strait",
+            "n_total": 121,
+            "n_container": 23
+          },
+          {
+            "date": "2026-11-07",
+            "portid": "chokepoint8",
+            "portname": "Gibraltar Strait",
+            "n_total": 127,
+            "n_container": 32
+          },
+          {
+            "date": "2026-11-08",
+            "portid": "chokepoint8",
+            "portname": "Gibraltar Strait",
+            "n_total": 134,
+            "n_container": 31
           }
         ],
-        "latest": "2026-11-01",
-        "mean28": 126.46428571428571,
-        "container28": 30.964285714285715,
-        "change28": -4.4,
+        "latest": "2026-11-08",
+        "mean28": 127.10714285714286,
+        "container28": 30.678571428571427,
+        "change28": -3.9,
         "baseline": 133,
         "baseline_days": 337,
-        "score": 5,
+        "score": 4,
         "stale": false,
-        "days": 417,
+        "days": 424,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "portid": "chokepoint8"
       },
       "weather": {
-        "peak_knots": 15.1,
-        "score": 0,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "peak_knots": 15.9,
+        "score": 3,
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 5,
+      "operational_score": 4,
       "coverage": 2
     },
     "dover": {
@@ -17763,34 +18008,83 @@
             "portname": "Dover Strait",
             "n_total": 195,
             "n_container": 42
+          },
+          {
+            "date": "2026-11-02",
+            "portid": "chokepoint9",
+            "portname": "Dover Strait",
+            "n_total": 161,
+            "n_container": 27
+          },
+          {
+            "date": "2026-11-03",
+            "portid": "chokepoint9",
+            "portname": "Dover Strait",
+            "n_total": 157,
+            "n_container": 36
+          },
+          {
+            "date": "2026-11-04",
+            "portid": "chokepoint9",
+            "portname": "Dover Strait",
+            "n_total": 176,
+            "n_container": 41
+          },
+          {
+            "date": "2026-11-05",
+            "portid": "chokepoint9",
+            "portname": "Dover Strait",
+            "n_total": 171,
+            "n_container": 42
+          },
+          {
+            "date": "2026-11-06",
+            "portid": "chokepoint9",
+            "portname": "Dover Strait",
+            "n_total": 193,
+            "n_container": 40
+          },
+          {
+            "date": "2026-11-07",
+            "portid": "chokepoint9",
+            "portname": "Dover Strait",
+            "n_total": 215,
+            "n_container": 49
+          },
+          {
+            "date": "2026-11-08",
+            "portid": "chokepoint9",
+            "portname": "Dover Strait",
+            "n_total": 168,
+            "n_container": 37
           }
         ],
-        "latest": "2026-11-01",
-        "mean28": 163.07142857142858,
-        "container28": 33.785714285714285,
-        "change28": -2.8,
-        "baseline": 166,
+        "latest": "2026-11-08",
+        "mean28": 166.39285714285714,
+        "container28": 34.857142857142854,
+        "change28": -0.3,
+        "baseline": 165,
         "baseline_days": 337,
-        "score": 2,
+        "score": 0,
         "stale": false,
-        "days": 417,
+        "days": 424,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "portid": "chokepoint9"
       },
       "weather": {
-        "peak_knots": 19.2,
-        "score": 12,
-        "start": "2026-11-10T00:00Z",
-        "end": "2026-11-10T23:00Z",
-        "fetched_at": "2026-11-10T00:45:04.712330+00:00",
+        "peak_knots": 20.6,
+        "score": 16,
+        "start": "2026-11-10T13:00Z",
+        "end": "2026-11-11T12:00Z",
+        "fetched_at": "2026-11-10T13:37:39.373401+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 12,
+      "operational_score": 16,
       "coverage": 2
     }
   },
