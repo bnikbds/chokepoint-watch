@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-13T13:15:45.145482+00:00",
+  "attempted_at": "2026-11-13T22:42:51.369018+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2967,7 +2967,7 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
+        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
         "portid": "chokepoint1"
       },
       "weather": null,
@@ -5943,7 +5943,7 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
+        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
         "portid": "chokepoint2"
       },
       "weather": null,
@@ -8919,7 +8919,7 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
+        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
         "portid": "chokepoint4"
       },
       "weather": null,
@@ -11910,7 +11910,7 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
+        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
         "portid": "chokepoint5"
       },
       "weather": null,
@@ -11927,44 +11927,30 @@
       "latitude": 1.2,
       "longitude": 103.9,
       "traffic": null,
-      "weather": {
-        "peak_knots": 9.9,
-        "score": 0,
-        "start": "2026-11-13T13:00Z",
-        "end": "2026-11-14T12:00Z",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
-        "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
-      },
+      "weather": null,
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
+        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
       ],
-      "operational_score": 0,
-      "coverage": 1
+      "operational_score": null,
+      "coverage": 0
     },
     "sicily": {
       "name": "Canal de Sicile",
       "latitude": 37.5,
       "longitude": 11.6,
       "traffic": null,
-      "weather": {
-        "peak_knots": 21.6,
-        "score": 19,
-        "start": "2026-11-13T13:00Z",
-        "end": "2026-11-14T12:00Z",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
-        "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
-      },
+      "weather": null,
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
+        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
       ],
-      "operational_score": 19,
-      "coverage": 1
+      "operational_score": null,
+      "coverage": 0
     },
     "gibraltar": {
       "name": "Détroit de Gibraltar",
@@ -14930,23 +14916,17 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
+        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
         "portid": "chokepoint8"
       },
-      "weather": {
-        "peak_knots": 14.1,
-        "score": 0,
-        "start": "2026-11-13T13:00Z",
-        "end": "2026-11-14T12:00Z",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
-        "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
-      },
+      "weather": null,
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+      ],
       "operational_score": 4,
-      "coverage": 2
+      "coverage": 1
     },
     "dover": {
       "name": "Pas de Calais",
@@ -17912,23 +17892,17 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
+        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
         "portid": "chokepoint9"
       },
-      "weather": {
-        "peak_knots": 12.1,
-        "score": 0,
-        "start": "2026-11-13T13:00Z",
-        "end": "2026-11-14T12:00Z",
-        "fetched_at": "2026-11-13T13:15:45.145482+00:00",
-        "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
-      },
+      "weather": null,
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+      ],
       "operational_score": 0,
-      "coverage": 2
+      "coverage": 1
     }
   },
   "errors": []
