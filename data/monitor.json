@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-13T22:42:51.369018+00:00",
+  "attempted_at": "2026-11-14T12:19:35.909652+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -9,13 +9,6 @@
       "longitude": 32.35,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-09-14",
-            "portid": "chokepoint1",
-            "portname": "Suez Canal",
-            "n_total": 47,
-            "n_container": 10
-          },
           {
             "date": "2025-09-15",
             "portid": "chokepoint1",
@@ -2965,19 +2958,25 @@
         "baseline_days": 337,
         "score": 0,
         "stale": false,
-        "days": 421,
+        "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
         "portid": "chokepoint1"
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 7.2,
+        "score": 0,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
-      ],
+      "errors": [],
       "operational_score": 0,
-      "coverage": 1
+      "coverage": 2
     },
     "panama": {
       "name": "Canal de Panama",
@@ -5944,16 +5943,25 @@
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
         "fetched_at": "2026-11-13T22:42:51.369018+00:00",
-        "portid": "chokepoint2"
+        "portid": "chokepoint2",
+        "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 6.5,
+        "score": 0,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6016 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
       ],
       "operational_score": 13,
-      "coverage": 1
+      "coverage": 2
     },
     "bab": {
       "name": "Bab el-Mandeb",
@@ -8920,31 +8928,47 @@
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
         "fetched_at": "2026-11-13T22:42:51.369018+00:00",
-        "portid": "chokepoint4"
+        "portid": "chokepoint4",
+        "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 17.8,
+        "score": 8,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6019 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
       ],
       "operational_score": 20,
-      "coverage": 1
+      "coverage": 2
     },
     "aden": {
       "name": "Golfe d’Aden",
       "latitude": 12.5,
       "longitude": 49,
       "traffic": null,
-      "weather": null,
+      "weather": {
+        "peak_knots": 12.5,
+        "score": 0,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
       ],
-      "operational_score": null,
-      "coverage": 0
+      "operational_score": 0,
+      "coverage": 1
     },
     "malacca": {
       "name": "Détroit de Malacca",
@@ -8952,13 +8976,6 @@
       "longitude": 100,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-09-14",
-            "portid": "chokepoint5",
-            "portname": "Malacca Strait",
-            "n_total": 250,
-            "n_container": 69
-          },
           {
             "date": "2025-09-15",
             "portid": "chokepoint5",
@@ -11908,49 +11925,69 @@
         "baseline_days": 337,
         "score": 3,
         "stale": false,
-        "days": 421,
+        "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
         "portid": "chokepoint5"
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 11.0,
+        "score": 0,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
-      ],
+      "errors": [],
       "operational_score": 3,
-      "coverage": 1
+      "coverage": 2
     },
     "singapore": {
       "name": "Détroit de Singapour",
       "latitude": 1.2,
       "longitude": 103.9,
       "traffic": null,
-      "weather": null,
+      "weather": {
+        "peak_knots": 7.7,
+        "score": 0,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
       ],
-      "operational_score": null,
-      "coverage": 0
+      "operational_score": 0,
+      "coverage": 1
     },
     "sicily": {
       "name": "Canal de Sicile",
       "latitude": 37.5,
       "longitude": 11.6,
       "traffic": null,
-      "weather": null,
+      "weather": {
+        "peak_knots": 17.0,
+        "score": 6,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
       ],
-      "operational_score": null,
-      "coverage": 0
+      "operational_score": 6,
+      "coverage": 1
     },
     "gibraltar": {
       "name": "Détroit de Gibraltar",
@@ -11958,13 +11995,6 @@
       "longitude": -5.7,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-09-14",
-            "portid": "chokepoint8",
-            "portname": "Gibraltar Strait",
-            "n_total": 126,
-            "n_container": 31
-          },
           {
             "date": "2025-09-15",
             "portid": "chokepoint8",
@@ -14914,19 +14944,25 @@
         "baseline_days": 337,
         "score": 4,
         "stale": false,
-        "days": 421,
+        "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
         "portid": "chokepoint8"
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 13.6,
+        "score": 0,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
-      ],
+      "errors": [],
       "operational_score": 4,
-      "coverage": 1
+      "coverage": 2
     },
     "dover": {
       "name": "Pas de Calais",
@@ -14934,13 +14970,6 @@
       "longitude": 1.6,
       "traffic": {
         "rows": [
-          {
-            "date": "2025-09-14",
-            "portid": "chokepoint9",
-            "portname": "Dover Strait",
-            "n_total": 174,
-            "n_container": 33
-          },
           {
             "date": "2025-09-15",
             "portid": "chokepoint9",
@@ -17890,19 +17919,25 @@
         "baseline_days": 337,
         "score": 0,
         "stale": false,
-        "days": 421,
+        "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-13T22:42:51.369018+00:00",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
         "portid": "chokepoint9"
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 22.5,
+        "score": 21,
+        "start": "2026-11-14T12:00Z",
+        "end": "2026-11-15T11:00Z",
+        "fetched_at": "2026-11-14T12:19:35.909652+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
-      ],
-      "operational_score": 0,
-      "coverage": 1
+      "errors": [],
+      "operational_score": 21,
+      "coverage": 2
     }
   },
   "errors": []
