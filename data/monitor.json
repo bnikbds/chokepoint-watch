@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-16T13:49:37.094533+00:00",
+  "attempted_at": "2026-11-17T00:53:22.347792+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2957,15 +2957,22 @@
         "portid": "chokepoint1",
         "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 7.3,
+        "score": 0,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
       "operational_score": 0,
-      "coverage": 1
+      "coverage": 2
     },
     "panama": {
       "name": "Canal de Panama",
@@ -5921,15 +5928,22 @@
         "portid": "chokepoint2",
         "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 6.0,
+        "score": 0,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
       "operational_score": 13,
-      "coverage": 1
+      "coverage": 2
     },
     "bab": {
       "name": "Bab el-Mandeb",
@@ -8885,30 +8899,44 @@
         "portid": "chokepoint4",
         "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 19.4,
+        "score": 13,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
       "operational_score": 20,
-      "coverage": 1
+      "coverage": 2
     },
     "aden": {
       "name": "Golfe d’Aden",
       "latitude": 12.5,
       "longitude": 49,
       "traffic": null,
-      "weather": null,
+      "weather": {
+        "peak_knots": 13.8,
+        "score": 0,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
-      "operational_score": null,
-      "coverage": 0
+      "operational_score": 0,
+      "coverage": 1
     },
     "malacca": {
       "name": "Détroit de Malacca",
@@ -11864,45 +11892,66 @@
         "portid": "chokepoint5",
         "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 12.9,
+        "score": 0,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
       "operational_score": 3,
-      "coverage": 1
+      "coverage": 2
     },
     "singapore": {
       "name": "Détroit de Singapour",
       "latitude": 1.2,
       "longitude": 103.9,
       "traffic": null,
-      "weather": null,
+      "weather": {
+        "peak_knots": 7.6,
+        "score": 0,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
-      "operational_score": null,
-      "coverage": 0
+      "operational_score": 0,
+      "coverage": 1
     },
     "sicily": {
       "name": "Canal de Sicile",
       "latitude": 37.5,
       "longitude": 11.6,
       "traffic": null,
-      "weather": null,
+      "weather": {
+        "peak_knots": 13.9,
+        "score": 0,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
-      "operational_score": null,
-      "coverage": 0
+      "operational_score": 0,
+      "coverage": 1
     },
     "gibraltar": {
       "name": "Détroit de Gibraltar",
@@ -14858,15 +14907,22 @@
         "portid": "chokepoint8",
         "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 15.1,
+        "score": 0,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
       "operational_score": 4,
-      "coverage": 1
+      "coverage": 2
     },
     "dover": {
       "name": "Pas de Calais",
@@ -17822,18 +17878,25 @@
         "portid": "chokepoint9",
         "retained": true
       },
-      "weather": null,
+      "weather": {
+        "peak_knots": 32.9,
+        "score": 51,
+        "start": "2026-11-17T00:00Z",
+        "end": "2026-11-17T23:00Z",
+        "fetched_at": "2026-11-17T00:53:22.347792+00:00",
+        "source": "https://api.open-meteo.com/v1/forecast",
+        "kind": "Prévision modélisée au point représentatif, pas mesure ni état de mer"
+      },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Catalogue PortWatch inaccessible",
-        "Météo : <urlopen error _ssl.c:994: The handshake operation timed out>"
+        "Trafic : Catalogue PortWatch inaccessible"
       ],
-      "operational_score": 0,
-      "coverage": 1
+      "operational_score": 51,
+      "coverage": 2
     }
   },
   "errors": [
-    "PortWatch catalogue: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6833 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
+    "PortWatch catalogue: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6849 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
   ]
 }
