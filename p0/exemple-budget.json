@@ -1,0 +1,54 @@
+{
+  "route": "sha-rot",
+  "carrier": "Maersk",
+  "equipment": "40HC",
+  "currency": "EUR",
+  "departure": "2026-11-25",
+  "quantity": 2,
+  "bl": 1,
+  "quoteDate": "2026-11-18",
+  "validTo": "2026-12-01",
+  "reference": "EXEMPLE PÉDAGOGIQUE P0 : montants hypothétiques, aucune offre commerciale",
+  "lines": {
+    "ocean": {
+      "amount": 2000,
+      "status": "add",
+      "unit": "container"
+    },
+    "bunker": {
+      "amount": null,
+      "status": "included",
+      "unit": "container"
+    },
+    "emissions": {
+      "amount": null,
+      "status": "included",
+      "unit": "container"
+    },
+    "canal": {
+      "amount": null,
+      "status": "na",
+      "unit": "container"
+    },
+    "contingency": {
+      "amount": null,
+      "status": "na",
+      "unit": "container"
+    },
+    "origin": {
+      "amount": 150,
+      "status": "add",
+      "unit": "container"
+    },
+    "destination": {
+      "amount": 250,
+      "status": "add",
+      "unit": "container"
+    },
+    "docs": {
+      "amount": 60,
+      "status": "add",
+      "unit": "bl"
+    }
+  }
+}
