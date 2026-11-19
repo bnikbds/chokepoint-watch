@@ -1,0 +1,11 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tester Chokepoint Watch</title><link rel="stylesheet" href="edition.css"><main>
+<nav><a href="../#observatoire">Chokepoint Watch</a></nav><p class="edition">Test du prototype · environ 5 minutes</p><h1>Préparer une livraison à Rotterdam</h1>
+<p>Vous achetez des composants en Asie. Un client vous demande de confirmer leur date de livraison. Ouvrez le site dans un deuxième onglet et essayez les trois tâches sans aide. Un blocage nous est aussi utile qu’une réussite.</p>
+<form id="test"><label for="role">Votre profil</label><select id="role" required><option value="">Choisir…</option><option>Achats / approvisionnement</option><option>Transport / logistique</option><option>Étudiant hors équipe</option><option>Autre utilisateur hors équipe</option><option>Membre de l’équipe (test interne)</option></select>
+<p><small>Gardez vos réponses anonymes : aucun nom, employeur, client, tarif privé ni référence de commande. Vous choisissez à la fin si vous les partagez avec le groupe.</small></p>
+<button type="button" id="start">Commencer le test</button>
+<div id="questions" hidden><p><a href="../#observatoire" target="_blank" rel="noopener">Ouvrir le site dans un nouvel onglet ↗</a></p><div id="tasks"></div>
+<label for="comment">Qu’amélioreriez-vous en premier ? (facultatif)</label><textarea id="comment" maxlength="650"></textarea>
+<label><input type="checkbox" id="consent" required> J’accepte que le groupe utilise mes réponses anonymes dans le projet si je lui transmets le fichier.</label><p class="actions"><button type="submit">Télécharger mes réponses</button></p></div></form>
+<p id="done" class="success" aria-live="polite"></p><footer>Les réponses restent dans cet onglet jusqu’au téléchargement. Transmettez vous-même le fichier à la personne qui vous a proposé le test. Aucune réponse n’est envoyée automatiquement.</footer>
+<script src="test.js"></script></main></html>
