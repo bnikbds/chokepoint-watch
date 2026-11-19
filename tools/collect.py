@@ -50,6 +50,27 @@ def stats(rows,now):
     stale=(date.fromisoformat(now)-end).days>14
     score=round(max(0,min(100,100*(1-a/ref)))) if not stale and a is not None and ref and ref>0 else None
     return dict(latest=end.isoformat(),mean28=a,container28=avg(recent,'n_container') if good(recent) else None,change28=round(100*(a/b-1),1) if a is not None and b else None,baseline=ref,baseline_days=len(baseline),score=score,stale=stale,days=len(rows))
+def forecast(payload, stamp, url):
+    values = payload['hourly']['wind_speed_10m']
+    times = [datetime.fromisoformat(t).replace(tzinfo=timezone.utc) for t in payload['hourly']['time']]
+    if (len(values) != 24 or len(times) != 24 or
+            any(isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v) or v < 0 for v in values) or
+            any(b - a != timedelta(hours=1) for a, b in zip(times, times[1:]))):
+        raise ValueError('Prévision horaire incomplète')
+    peak = max(values)
+    return dict(peak_knots=peak, score=round(max(0, min(100, (peak-15)*100/35))),
+                start=times[0].isoformat(), end=(times[-1]+timedelta(hours=1)).isoformat(),
+                fetched_at=stamp, source=url, kind='Prévision modélisée au point représentatif')
+
+def current_weather(w, now):
+    if not w:
+        return False
+    try:
+        fetched, start, end = (datetime.fromisoformat(w[k].replace('Z','+00:00')) for k in ('fetched_at','start','end'))
+        return timedelta(0) <= now - fetched < timedelta(days=1) and start <= now < end
+    except (KeyError, TypeError, ValueError):
+        return False
+
 def collect():
     now=datetime.now(timezone.utc);stamp=now.isoformat();today=now.date().isoformat()
     path=ROOT/'data/monitor.json';old=json.loads(path.read_text()) if path.exists() else {};out={'schema':1,'attempted_at':stamp,'methodology':'risk-v1','passages':{},'errors':[]}
@@ -80,13 +101,16 @@ def collect():
         try:
             url='https://api.open-meteo.com/v1/forecast'
             w=get(url,dict(latitude=lat,longitude=lon,hourly='wind_speed_10m',forecast_hours=24,timezone='UTC',wind_speed_unit='kn',cell_selection='nearest'))
-            vals=w['hourly']['wind_speed_10m'];times=w['hourly']['time']
-            if len(vals)!=24 or len(times)!=24 or any(not isinstance(v,(int,float)) or not math.isfinite(v) or v<0 for v in vals):raise ValueError('Prévision incomplète')
-            peak=max(vals);score=round(max(0,min(100,(peak-15)*100/35)))
-            p['weather']=dict(peak_knots=peak,score=score,start=times[0]+'Z',end=times[-1]+'Z',fetched_at=stamp,source=url,kind='Prévision modélisée au point représentatif, pas mesure ni état de mer')
-        except Exception as e:p['errors'].append('Météo : '+str(e))
-        available=[x['score'] for x in [p['traffic'],p['weather']] if x and x.get('score') is not None]
-        p['operational_score']=max(available) if available else None
+            p['weather'] = forecast(w, stamp, url)
+        except Exception as e:
+            p['errors'].append('Météo : '+str(e))
+            saved = old.get('passages', {}).get(key, {}).get('weather')
+            if current_weather(saved, now):
+                p['weather'] = {**saved, 'retained': True}
+        available = [p['traffic']['score']] if p['traffic'] and p['traffic'].get('score') is not None else []
+        if current_weather(p['weather'], now):
+            available.append(p['weather']['score'])
+        p['operational_score'] = max(available) if len(available) == 2 else None
         p['coverage']=len(available);out['passages'][key]=p
     path.parent.mkdir(exist_ok=True);path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'attempted_at':stamp,'passages':{k:{'traffic':bool(v['traffic']),'weather':bool(v['weather']),'errors':v['errors']} for k,v in out['passages'].items()}},ensure_ascii=False))

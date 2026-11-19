@@ -2,7 +2,7 @@ name: P1 visitor checks and demo captures
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/p1-checks.yml', 'index.html', 'atlas.js', 'atlas.css', 'jmic.js', 'monitor.js', 'p1/**', 'tools/check_p1_browser.py', 'tools/test_jmic.cjs']
+    paths: ['.github/workflows/p1-checks.yml', 'index.html', 'atlas.js', 'atlas.css', 'jmic.js', 'monitor.js', 'p1/**', 'tools/check_p1_browser.py', 'tools/test_jmic.cjs', 'workspace.js', 'workspace.css', 'freshness.js', 'tools/check_workspace.py', 'tools/collect.py', 'tools/test_forecast.py', 'tools/test_freshness.cjs']
   workflow_dispatch:
 permissions:
   contents: read
@@ -28,11 +28,14 @@ jobs:
           python -m unittest discover -s tools -p 'test_*.py' 2>&1 | tee "$CW_EVIDENCE/test-collector.txt"
           node tools/test_p0.cjs | tee "$CW_EVIDENCE/test-p0.txt"
           node --test tools/test_jmic.cjs | tee "$CW_EVIDENCE/test-jmic.txt"
+          node --test tools/test_freshness.cjs | tee "$CW_EVIDENCE/test-freshness.txt"
           git show fa57d6ccd78fdcd0eaa38f3a9afef79af24572f6:data/monitor.json > data/monitor.json
           python -m http.server 8769 --bind 127.0.0.1 > "$RUNNER_TEMP/cw-server.log" 2>&1 &
           trap 'kill "$!" 2>/dev/null || true' EXIT
           for i in {1..20}; do if curl -fsS http://127.0.0.1:8769/p1/briefing.html > /dev/null; then break; fi; sleep 0.25; done
           python tools/check_p1_browser.py
+          git restore data/monitor.json
+          python tools/check_workspace.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
