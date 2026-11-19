@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-19T16:26:05.009170+00:00",
+  "attempted_at": "2026-11-19T16:29:06.822623+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2974,7 +2974,7 @@
         "stale": false,
         "days": 422,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "portid": "chokepoint1"
       },
       "weather": {
@@ -2982,7 +2982,7 @@
         "score": 0,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -5963,7 +5963,7 @@
         "stale": false,
         "days": 422,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "portid": "chokepoint2"
       },
       "weather": {
@@ -5971,7 +5971,7 @@
         "score": 0,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -8952,7 +8952,7 @@
         "stale": false,
         "days": 422,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "portid": "chokepoint4"
       },
       "weather": {
@@ -8960,7 +8960,7 @@
         "score": 21,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -8980,7 +8980,7 @@
         "score": 0,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -11963,7 +11963,7 @@
         "stale": false,
         "days": 422,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "portid": "chokepoint5"
       },
       "weather": {
@@ -11971,7 +11971,7 @@
         "score": 0,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -11991,7 +11991,7 @@
         "score": 0,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -12013,7 +12013,7 @@
         "score": 17,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -14996,7 +14996,7 @@
         "stale": false,
         "days": 422,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "portid": "chokepoint8"
       },
       "weather": {
@@ -15004,7 +15004,7 @@
         "score": 0,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -17985,7 +17985,7 @@
         "stale": false,
         "days": 422,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "portid": "chokepoint9"
       },
       "weather": {
@@ -17993,7 +17993,7 @@
         "score": 6,
         "start": "2026-11-19T16:00:00+00:00",
         "end": "2026-11-20T16:00:00+00:00",
-        "fetched_at": "2026-11-19T16:26:05.009170+00:00",
+        "fetched_at": "2026-11-19T16:29:06.822623+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
