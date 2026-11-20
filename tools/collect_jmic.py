@@ -17,7 +17,7 @@ LEVELS = {'LOW', 'MODERATE', 'SUBSTANTIAL', 'SEVERE', 'CRITICAL'}
 REGIONS = {'northern red sea / suez canal':'suez', 'bab el-mandeb / southern red sea':'bab', 'gulf of aden':'aden'}
 
 def get(url):
-    return subprocess.check_output(['curl','--fail','--silent','--show-error','--retry','2','--max-time','30','--max-filesize','20000000',url],timeout=110)
+    return subprocess.check_output(['curl','--user-agent','ChokepointWatch/1.0 (+https://github.com/bnikbds/chokepoint-watch)', '--header','Accept: application/json' if url.startswith(API+'/') else 'Accept: application/pdf','--fail','--silent','--show-error','--retry','2','--max-time','30','--max-filesize','20000000',url],timeout=110)
 
 def listing(path):
     rows = json.loads(get(API + '/' + path))
