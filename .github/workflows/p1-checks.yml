@@ -33,7 +33,10 @@ jobs:
           python -m http.server 8769 --bind 127.0.0.1 > "$RUNNER_TEMP/cw-server.log" 2>&1 &
           trap 'kill "$!" 2>/dev/null || true' EXIT
           for i in {1..20}; do if curl -fsS http://127.0.0.1:8769/p1/briefing.html > /dev/null; then break; fi; sleep 0.25; done
+          cp data/jmic-editions.js "$RUNNER_TEMP/jmic-live.js"
+          echo "/* Historical replay uses the archived 15 November edition. */" > data/jmic-editions.js
           python tools/check_p1_browser.py
+          cp "$RUNNER_TEMP/jmic-live.js" data/jmic-editions.js
           git restore data/monitor.json
           python tools/check_workspace.py
       - uses: actions/upload-artifact@v4
