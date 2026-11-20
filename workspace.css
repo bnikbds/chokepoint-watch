@@ -45,3 +45,12 @@ h1:focus:not(:focus-visible),main:focus:not(:focus-visible){outline:none}
  #mobile-reading{display:block;text-align:left;width:100%;padding:12px 14px;background:#e8f1e8;color:#194b3c;font-weight:650;border-top:1px solid #cadbcf;font-size:13px}
  .atlas-top h2{font-size:21px}.atlas-actions{gap:5px}.atlas-actions button{font-size:11px;padding:5px 7px}.atlas-top .atlas-actions{width:100%}
 }
+
+.scenario-field-action{display:block;margin:8px 0 0;padding:3px 0;font-size:.9rem;font-weight:650;color:#075e55;text-align:left;text-decoration:underline;text-underline-offset:3px}
+.scenario-field-action[hidden]{display:none}
+.carrier-request{margin-top:16px}
+.carrier-request summary{cursor:pointer;color:#12383d;font-weight:700;font-size:1.1rem}
+.carrier-request p{margin:14px 0 12px}
+.carrier-request label{font-weight:650}
+.carrier-request textarea{display:block;width:100%;margin:7px 0 12px;padding:12px;border:1px solid #b5c9c5;border-radius:8px;background:#fafcfb;color:#15393b;font:inherit;line-height:1.5;resize:vertical}
+.carrier-request [role=status]{color:#245852;font-size:.9rem}
