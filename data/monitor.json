@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-21T13:35:28.293967+00:00",
+  "attempted_at": "2026-11-21T22:15:02.207752+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2960,7 +2960,7 @@
         "stale": false,
         "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-21T13:35:28.293967+00:00",
+        "fetched_at": "2026-11-21T22:15:02.207752+00:00",
         "portid": "chokepoint1"
       },
       "weather": {
@@ -2970,11 +2970,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : HTTP Error 429: Too Many Requests"
+      ],
       "operational_score": 0,
       "coverage": 2
     },
@@ -5935,7 +5938,7 @@
         "stale": false,
         "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-21T13:35:28.293967+00:00",
+        "fetched_at": "2026-11-21T22:15:02.207752+00:00",
         "portid": "chokepoint2"
       },
       "weather": {
@@ -5945,11 +5948,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : HTTP Error 429: Too Many Requests"
+      ],
       "operational_score": 13,
       "coverage": 2
     },
@@ -8910,7 +8916,7 @@
         "stale": false,
         "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-21T13:35:28.293967+00:00",
+        "fetched_at": "2026-11-21T22:15:02.207752+00:00",
         "portid": "chokepoint4"
       },
       "weather": {
@@ -8920,11 +8926,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : HTTP Error 429: Too Many Requests"
+      ],
       "operational_score": 18,
       "coverage": 2
     },
@@ -8940,12 +8949,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
+        "Météo : HTTP Error 429: Too Many Requests"
       ],
       "operational_score": null,
       "coverage": 1
@@ -11907,7 +11918,7 @@
         "stale": false,
         "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-21T13:35:28.293967+00:00",
+        "fetched_at": "2026-11-21T22:15:02.207752+00:00",
         "portid": "chokepoint5"
       },
       "weather": {
@@ -11917,11 +11928,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : HTTP Error 429: Too Many Requests"
+      ],
       "operational_score": 1,
       "coverage": 2
     },
@@ -11937,12 +11951,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
+        "Météo : HTTP Error 429: Too Many Requests"
       ],
       "operational_score": null,
       "coverage": 1
@@ -11959,12 +11975,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [
-        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch"
+        "Trafic : Pas de série distincte identifiée dans le catalogue PortWatch",
+        "Météo : HTTP Error 429: Too Many Requests"
       ],
       "operational_score": null,
       "coverage": 1
@@ -14926,7 +14944,7 @@
         "stale": false,
         "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-21T13:35:28.293967+00:00",
+        "fetched_at": "2026-11-21T22:15:02.207752+00:00",
         "portid": "chokepoint8"
       },
       "weather": {
@@ -14936,11 +14954,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : HTTP Error 429: Too Many Requests"
+      ],
       "operational_score": 6,
       "coverage": 2
     },
@@ -17901,7 +17922,7 @@
         "stale": false,
         "days": 420,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-21T13:35:28.293967+00:00",
+        "fetched_at": "2026-11-21T22:15:02.207752+00:00",
         "portid": "chokepoint9"
       },
       "weather": {
@@ -17911,11 +17932,14 @@
         "end": "2026-11-22T13:00:00+00:00",
         "fetched_at": "2026-11-21T13:35:28.293967+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
-        "kind": "Prévision modélisée au point représentatif"
+        "kind": "Prévision modélisée au point représentatif",
+        "retained": true
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
-      "errors": [],
+      "errors": [
+        "Météo : HTTP Error 429: Too Many Requests"
+      ],
       "operational_score": 14,
       "coverage": 2
     }
