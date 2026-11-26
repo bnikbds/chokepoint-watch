@@ -1,5 +1,5 @@
 globalThis.CWJMICFeed = {
-  "attempted_at": "2026-11-26T01:02:23+00:00",
+  "attempted_at": "2026-11-26T15:28:37+00:00",
   "status": "review",
   "editions": [
     {
