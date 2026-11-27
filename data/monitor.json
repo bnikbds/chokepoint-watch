@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "attempted_at": "2026-11-27T01:03:57.894772+00:00",
+  "attempted_at": "2026-11-27T15:20:37.293424+00:00",
   "methodology": "risk-v1",
   "passages": {
     "suez": {
@@ -2967,15 +2967,15 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "portid": "chokepoint1"
       },
       "weather": {
-        "peak_knots": 4.7,
+        "peak_knots": 4.3,
         "score": 0,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -5949,15 +5949,15 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "portid": "chokepoint2"
       },
       "weather": {
-        "peak_knots": 8.2,
+        "peak_knots": 6.4,
         "score": 0,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -8931,22 +8931,22 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "portid": "chokepoint4"
       },
       "weather": {
-        "peak_knots": 21.9,
-        "score": 20,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "peak_knots": 23.9,
+        "score": 25,
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 20,
+      "operational_score": 25,
       "coverage": 2
     },
     "aden": {
@@ -8955,11 +8955,11 @@
       "longitude": 49,
       "traffic": null,
       "weather": {
-        "peak_knots": 12.1,
+        "peak_knots": 12.3,
         "score": 0,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -11935,15 +11935,15 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "portid": "chokepoint5"
       },
       "weather": {
-        "peak_knots": 8.4,
+        "peak_knots": 7.5,
         "score": 0,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -11959,11 +11959,11 @@
       "longitude": 103.9,
       "traffic": null,
       "weather": {
-        "peak_knots": 7.7,
+        "peak_knots": 7.4,
         "score": 0,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -11981,11 +11981,11 @@
       "longitude": 11.6,
       "traffic": null,
       "weather": {
-        "peak_knots": 15.9,
-        "score": 3,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "peak_knots": 24.9,
+        "score": 28,
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
@@ -14961,22 +14961,22 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "portid": "chokepoint8"
       },
       "weather": {
-        "peak_knots": 12.3,
-        "score": 0,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "peak_knots": 17.7,
+        "score": 8,
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 3,
+      "operational_score": 8,
       "coverage": 2
     },
     "dover": {
@@ -17943,22 +17943,22 @@
         "stale": false,
         "days": 421,
         "source": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "portid": "chokepoint9"
       },
       "weather": {
-        "peak_knots": 15.9,
-        "score": 3,
-        "start": "2026-11-27T01:00:00+00:00",
-        "end": "2026-11-28T01:00:00+00:00",
-        "fetched_at": "2026-11-27T01:03:57.894772+00:00",
+        "peak_knots": 19.8,
+        "score": 14,
+        "start": "2026-11-27T15:00:00+00:00",
+        "end": "2026-11-28T15:00:00+00:00",
+        "fetched_at": "2026-11-27T15:20:37.293424+00:00",
         "source": "https://api.open-meteo.com/v1/forecast",
         "kind": "Prévision modélisée au point représentatif"
       },
       "security_score": null,
       "security_status": "Non évalué automatiquement : bulletin officiel à vérifier",
       "errors": [],
-      "operational_score": 3,
+      "operational_score": 14,
       "coverage": 2
     }
   },
